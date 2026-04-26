@@ -23,12 +23,12 @@ Lower ratings such as 1 and 2 are less frequent, meaning relatively few students
 
 <img src="static/imgs/bar.png" alt="Distribution of pre-lecture video ratings" width="500"/>
 
-Also, I added a helper function to filter the dataset and focus on students who rated pre-lecture videos highly, allowing for a more targeted analysis.
+Also, I added a helper function to filter the dataset and focus on students who rated pre-lecture videos highly (more than 3), allowing for a more targeted analysis.
 
 ## Conclusion of the analysis
 
-This project explores how pre-lecture videos might improve student understanding in COMP110 using survey data collected from students. The goal of the analysis is to evaluate whether students who believe pre-lecture videos are helpful also report higher levels of understanding in the course.
+The results suggest that while many students view pre-lecture videos positively, the relationship between these videos and understanding is not strongly consistent across all students. This indicates that pre-lecture videos may benefit some learners, but are not the only factor influencing success in the course. Other factors such as prior experience, study habits, or difficulty of the material likely also play a significant role.
 
-To investigate this, I combined and processed survey datasets, selected relevant variables, and created multiple visualizations using Python and the seaborn library. These included a scatterplot, a boxplot, and a bar chart to examine patterns in student responses.
+One potential downside of implementing pre-lecture videos is that it may increase workload for both instructors and students. Students may feel additional pressure to complete videos before class, and instructors would need to spend time creating and maintaining the content. 
 
-The results suggest that while many students view pre-lecture videos positively, the relationship between these videos and understanding is not strongly consistent across all students. This indicates that pre-lecture videos may benefit some learners, but are not the only factor influencing success in the course.
+As a future improvement, the course could experiment with implementing pre-lecture videos for a few more challenging topics and collect more targeted data, such as whether students who actually watch the videos perform better or feel more confident. This would provide more direct evidence of their effectiveness.
