@@ -5,23 +5,23 @@ layout: default
 
 # Analysis for Continuous Improvement (EX 09)
 
-<!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
-
 ## Summary of the analysis
 
 This project analyzes survey data from COMP110 to explore whether pre-lecture videos are associated with higher student understanding. I combined multiple datasets, selected relevant columns, and converted the data into a format suitable for analysis.
 
-Using Python and seaborn, I created several visualizations, including a scatterplot to examine the relationship between pre-lecture video ratings and understanding, a boxplot to compare distributions of understanding across different ratings, and a bar chart to show how students rated the usefulness of pre-lecture videos.
-
-Additionally, I implemented a helper function to filter the dataset and focus on students who rated pre-lecture videos highly, allowing for a more targeted analysis. These steps helped identify patterns in the data and provided insight into how students perceive pre-lecture videos and their potential impact on learning.
+Using Python and seaborn, I created several visualizations. First is a scatterplot that shows the relationship between pre-lecture video ratings and understanding.
 
 <img src="static/imgs/scatter1.png" alt="Scatterplot of pre-lecture videos vs understanding" width="500"/>
 
+Second, is a boxplot that compares distributions of understanding across different ratings. 
+
 <img src="static/imgs/box.png" alt="Boxplot of understanding by video rating" width="500"/>
+
+And a bar chart to show how students rated the usefulness of pre-lecture videos.
 
 <img src="static/imgs/bar.png" alt="Distribution of pre-lecture video ratings" width="500"/>
 
+Also, I added a helper function to filter the dataset and focus on students who rated pre-lecture videos highly, allowing for a more targeted analysis.
 
 ## Conclusion of the analysis
 
