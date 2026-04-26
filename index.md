@@ -16,11 +16,11 @@ Using Python and seaborn, I created several visualizations, including a scatterp
 
 Additionally, I implemented a helper function to filter the dataset and focus on students who rated pre-lecture videos highly, allowing for a more targeted analysis. These steps helped identify patterns in the data and provided insight into how students perceive pre-lecture videos and their potential impact on learning.
 
-<img src="/static/imgs/scatter1.png" alt="Scatterplot of pre-lecture videos vs understanding" width="500"/>
+<img src="good_website/static/imgs/scatter1.png" alt="Scatterplot of pre-lecture videos vs understanding" width="500"/>
 
-<img src="/static/imgs/boxplot.png" alt="Boxplot of understanding by video rating" width="500"/>
+<img src="good_website/static/imgs/boxplot.png" alt="Boxplot of understanding by video rating" width="500"/>
 
-<img src="/static/imgs/bar.png" alt="Distribution of pre-lecture video ratings" width="500"/>
+<img src="good_website/static/imgs/bar.png" alt="Distribution of pre-lecture video ratings" width="500"/>
 
 
 ## Conclusion of the analysis
